@@ -30,3 +30,6 @@ class EventHandler:
             self.connected_methods[event_type].discard(method)
             if len(self.connected_methods[event_type]) == 0:
                 self.connected_methods.pop(event_type)
+
+
+event_handler_instance = EventHandler()
