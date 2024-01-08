@@ -1,5 +1,5 @@
 import pygame
-from KeyManager import KeyManager
+from .KeyManager import KeyManager
 
 
 # TODO: Documentation
