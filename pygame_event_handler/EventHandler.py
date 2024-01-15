@@ -6,7 +6,6 @@ from .KeyManager import KeyManager
 class EventHandler:
     def __init__(self):
         self.connected_callables = {}
-        self.loop_start_methods = set()
 
         self.key_manager = KeyManager()
         self.connect_callable(pygame.KEYUP, self.key_manager.update)
